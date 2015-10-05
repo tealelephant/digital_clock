@@ -1,4 +1,4 @@
-// Arduino Clock
+ // Arduino Clock
 //
 
 #include "SevSeg.h"
@@ -56,5 +56,8 @@ void loop() {
   digitalWrite(c, LOW);
   digitalWrite(g, HIGH);
   digitalWrite(g, LOW);
-  digitalWrite
+  digitalWrite(d4, HIGH);
+  digitalWrite(d4, LOW);
+
 }
+
